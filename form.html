@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表單作業</title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="card border-top bg-color" style="padding-top: 0; padding-bottom: 0;">
+            <div class="border-bottom-gray">
+                <h1>F2E02表單練習</h1>
+                <p>僅供新尖兵F2E02表單切版練習作業</p>
+            </div>
+            <div>
+                <p class="border-bottom-gray">
+                    <a href="#" class="color-blue decoration-none">登入Google</a>
+                    即可儲存進度。
+                    <a href="#" class="color-blue decoration-none">了解詳情</a>
+                </p>
+            </div>
+            <p class="color-red">*表示必填問題</p>
+        </section>
+        <section class="card">
+            <form action="">
+                <label>
+                    姓名
+                    <span class="color-red">*</span><br>
+                    <input class="input-text" name="username" type="text" placeholder="您的回答">
+                </label>
+            </form>
+        </section>
+        <section class="card">
+            <form action="">
+                <label>
+                    信箱<span class="color-red">*</span><br>
+                    <input class="input-text" name="email" type="email" placeholder="您的回答">
+                </label>
+            </form>
+        </section>
+        <section class="card">
+            <form action="">
+                <label>
+                    生日<br>
+                    <span class="color-darkgray font-size-s">
+                        日期
+                    </span><br>
+                    <input class="input-date" name="date" type="date">
+                </label>
+            </form>
+        </section>
+        <section class="card">
+            <form action="">
+                <label>
+                    想跟老師說的悄悄話<br>
+                    <input class="input-text" name="text" type="text" placeholder="您的回答">
+                </label>
+            </form>
+        </section>
+        <section class="card">
+            <legend>喜歡的顏色</legend>
+            <label>
+                <input class="input-radio" name="color" type="radio" value="yellow">
+                黃
+            </label>
+            <br>
+            <label>
+                <input class="input-radio" name="color" type="radio" value="green">
+                綠
+            </label>
+            <br>
+            <label>
+                <input class="input-radio" name="color" type="radio" value="red">
+                紅
+            </label>
+        </section>
+        <section class="card">
+            <legend style="margin-bottom: 28px;">喜歡吃的食物類型</legend>
+            <label>
+                <input class="option-margin" type="checkbox" name="checkbox-country" id="" value="chinese">
+                中式
+            </label>
+            <br>
+            <label>
+                <input class="option-margin" type="checkbox" name="checkbox-country" id="" value="italian">
+                義式
+            </label>
+            <br>
+            <label>
+                <input class="option-margin" type="checkbox" name="checkbox-country" id="" value="japanese">
+                日式
+            </label>
+            <br>
+            <label>
+                <input class="option-margin" type="checkbox" name="checkbox-country" id="" value="korean">
+                韓式
+            </label>
+            <br>
+            <label>
+                <input class="option-margin" type="checkbox" name="checkbox-country" id="" value="american">
+                美式
+            </label>
+            <br>
+            <label>
+                <input class="option-margin" type="checkbox" name="checkbox-country" id="" value="thai">
+                泰式
+            </label>
+        </section>
+        <section class="card">
+            最想去的國家
+            <br>
+            <select name="country" id="">
+                <option value="choose">選擇</option>
+                <label>
+                    <optgroup label="亞洲">
+                        <option value="japan">日本</option>
+                        <option value="korea">韓國</option>
+                        <option value="thailand">泰國</option>
+                    </optgroup>
+                    <optgroup label="歐洲">
+                        <option value="germany">德國</option>
+                        <option value="uk">英國</option>
+                    </optgroup>
+                    <optgroup label="美洲">
+                        <option value="canada">加拿大</option>
+                        <option value="usa">美國</option>
+                    </optgroup>
+                </label>
+            </select>
+        </section>
+        <form class="flex-btn">
+            <button class="btn-submit border-0" type="submit">提交</button>
+            <button class="btn-reset border-0" type="reset">清除表單</button>
+        </form>
+        <p class="color-darkgray font-size-s">請勿利用Google表單送出密碼</p>
+
+        <footer>
+            <p class="font-size-s color-darkgray">這份表單是在 ＿＿＿＿＿＿＿＿＿股份有限公司 中建立。
+                <a href="#" class="color-darkgray">
+                    -聯絡表單擁有者
+                </a>
+            </p>
+            <p class="font-size- color-darkgray">這份表單很可疑嗎？<a href="#" class="color-darkgray">報告</a></p>
+            <a href="#" class="flex-row color-gray decoration-none">
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg" alt=""
+                    style="opacity: 45%;">
+                <span class="font-size-l">表單</span>
+            </a>
+
+        </footer>
+
+    </div>
+</body>
+
+</html>
